@@ -1,0 +1,103 @@
+<!-- 11.Create an HTML page, which should contain all types of input elements. -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>All HTML Input Elements Example</title>
+</head>
+<body>
+  <h1>All Types of HTML Input Elements</h1>
+
+  <form action="#" method="post">
+    <!-- Text Inputs -->
+    <label>Text:</label>
+    <input type="text" name="text" value="John Doe"><br><br>
+
+    <label>Password:</label>
+    <input type="password" name="password" value="mypassword"><br><br>
+
+    <label>Email:</label>
+    <input type="email" name="email" value="example@email.com"><br><br>
+
+    <label>Number:</label>
+    <input type="number" name="number" value="42"><br><br>
+
+    <label>Tel:</label>
+    <input type="tel" name="tel" value="+91-9876543210"><br><br>
+
+    <label>URL:</label>
+    <input type="url" name="url" value="https://example.com"><br><br>
+
+    <label>Search:</label>
+    <input type="search" name="search" value="HTML inputs"><br><br>
+
+    <!-- Choice Inputs -->
+    <label>Radio Buttons:</label><br>
+    <input type="radio" name="gender" value="male" checked> Male
+    <input type="radio" name="gender" value="female"> Female<br><br>
+
+    <label>Checkboxes:</label><br>
+    <input type="checkbox" name="skill" value="html" checked> HTML
+    <input type="checkbox" name="skill" value="css"> CSS
+    <input type="checkbox" name="skill" value="js"> JavaScript<br><br>
+
+    <label>Select Dropdown:</label><br>
+    <select name="country">
+      <option>India</option>
+      <option selected>USA</option>
+      <option>UK</option>
+      <option>Canada</option>
+    </select><br><br>
+
+    <!-- Date & Time Inputs -->
+    <label>Date:</label>
+    <input type="date" name="date" value="2025-11-09"><br><br>
+
+    <label>Datetime-local:</label>
+    <input type="datetime-local" name="datetime"><br><br>
+
+    <label>Month:</label>
+    <input type="month" name="month" value="2025-11"><br><br>
+
+    <label>Week:</label>
+    <input type="week" name="week" value="2025-W45"><br><br>
+
+    <label>Time:</label>
+    <input type="time" name="time" value="10:30"><br><br>
+
+    <!-- Other Inputs -->
+    <label>Color:</label>
+    <input type="color" name="color" value="#007bff"><br><br>
+
+    <label>Range:</label>
+    <input type="range" name="range" min="0" max="100" value="60"><br><br>
+
+    <label>File Upload:</label>
+    <input type="file" name="file"><br><br>
+
+    <label>Hidden Field:</label>
+    <input type="hidden" name="hidden" value="secretData"><br><br>
+
+    <label>Image Button:</label><br>
+    <input type="image" src="https://via.placeholder.com/100x40?text=Submit" alt="Submit"><br><br>
+
+    <label>Reset Button:</label>
+    <input type="reset" value="Reset Form"><br><br>
+
+    <label>Submit Button:</label>
+    <input type="submit" value="Submit Form"><br><br>
+
+    <label>Button Element:</label>
+    <input type="button" value="Click Me" onclick="alert('Button clicked!')"><br><br>
+
+    <label>Textarea:</label><br>
+    <textarea name="comments" rows="4" cols="40">This is a sample text area.</textarea><br><br>
+  </form>
+
+</body>
+</html>
+
+
